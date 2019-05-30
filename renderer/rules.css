@@ -1,0 +1,10 @@
+body{margin:0px;}
+.flowchart-operator{border: 2px solid black;}
+.flowchart-operator .flowchart-operator-title{background-color: #cccccc; color: black; border-bottom: 2px solid black;}
+.flowchart-operator.selected{border: 2px solid red;}
+.flowchart-operator.hover, .flowchart-operator.selected{border: 2px solid red; color:red;}
+.flowchart-operator.hover .flowchart-operator-title{border-bottom: 2px solid red; color:red;}
+.flowchart-operator.selected .flowchart-operator-title{border-bottom: 2px solid red; color:red;}
+.flowchart-operator-outputs .flowchart-operator-connector-label,.flowchart-operator-inputs .flowchart-operator-connector-label{font-weight: bold;}
+.flowchart-operator-connector-arrow{border-left: 10px solid black;}
+.flowchart-operator.selected .flowchart-operator-connector-arrow,.flowchart-operator.hover .flowchart-operator-connector-arrow{border-left: 10px solid red;}
